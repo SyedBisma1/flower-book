@@ -1,0 +1,169 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body h1 {
+    color: rgb(223, 207, 207);
+    size: 2px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+
+body {
+
+    background-color: rgba(49, 63, 61, 0.377);
+    background-image: url(https://images.unsplash.com/photo-1518965539400-77d851d65c43?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+
+.box {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh;
+
+}
+.box:hover {
+border-radius: 2%;
+
+}
+.box h1{
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 70vh;
+    text-decoration: underline 3px;
+  
+}
+/* chnsges here  */
+.box p{
+    color: rgb(218, 200, 200);
+   font-size: 20px;
+   margin-bottom: 30vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.box1 {
+    /* Bougainvillea */
+    height: 80vh;
+    width: 400px;
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/door-shaded-by-bougainvillea-porquerolles-france-royalty-free-image-1653423252.jpg?crop=0.668xw:1.00xh;0.165xw,0&resize=980:*);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: visible;
+    box-shadow: 5cm;
+    border: 2px double black;
+    
+}
+
+.box2 {
+    height: 80vh;
+    width: 400px;
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/wisteria-in-bloom-royalty-free-image-1653423554.jpg?crop=0.685xw:1.00xh;0.112xw,0&resize=980:*);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: visible;
+    box-shadow: 5cm;
+    border: 2px double black;
+    margin: 6px;
+}
+
+.box3 {
+    
+    height: 80vh;
+    width: 400px;
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/vibrant-pink-and-white-summer-flowering-cosmos-royalty-free-image-1653499726.jpg?crop=0.66541xw:1xh;center,top&resize=980:*);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: visible;
+    box-shadow: 5cm;
+    border: 2px double black;
+}
+
+.box4 {
+    /* Gardenia */
+    height: 80vh;
+    width: 400px;
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/gardenia-royalty-free-image-1580854928.jpg?crop=1.00xw:0.796xh;0,0.0851xh&resize=980:*);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: visible;
+    box-shadow: 5cm;
+    border: 2px double black;
+}
+
+.box5 {
+    /* Alstroemerias */
+    height: 80vh;
+    width: 400px;
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/close-up-image-of-the-beautiful-vibrant-orange-royalty-free-image-1580855109.jpg?crop=0.668xw:1.00xh;0.0306xw,0&resize=980:*);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: visible;
+    box-shadow: 5cm;
+    border: 2px double black;
+}
+
+.box6 {
+    /* Corn Poppy */
+       height: 80vh;
+    width: 400px;
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/poppy-1508785046.jpg?crop=1xw:0.6666666666666666xh;center,top&resize=980:*);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: visible;
+    box-shadow: 5cm;
+    border: 2px double black;
+
+}
+
+.box7 {
+    /* Petunia */
+       height: 80vh;
+    width: 400px;
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/petunias-royalty-free-image-1580855855.jpg?crop=1xw:1xh;center,top&resize=980:*);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: visible;
+    box-shadow: 5cm;
+    border: 2px double black;
+}
+
+.box8 {
+    /* Marigold */
+       height: 80vh;
+    width: 400px;
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/close-up-of-orange-marigold-flower-royalty-free-image-1580855457.jpg?crop=0.668xw:1.00xh;0.122xw,0&resize=980:*);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: visible;
+    box-shadow: 5cm;
+    border: 2px double black;
+}
+
+.box9 {
+    /* Water Lily */
+       height: 80vh;
+    width: 400px;
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/waterlily-1508785045.jpg?crop=1.00xw:0.669xh;0,0.193xh&resize=980:*);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: visible;
+    box-shadow: 5cm;
+    border: 2px double black;
+}
+#flowers{
+    margin: 10vh;
+}
+
+footer {
+    color: rgb(199, 223, 235);
+    font-size: larger;
+    text-align: center;
+    background-color: black;
+}
