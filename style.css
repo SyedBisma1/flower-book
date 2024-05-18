@@ -25,10 +25,12 @@ body {
     justify-content: center;
     align-items: center;
     margin: 2vh;
+    opacity: 0.5;
 
 }
 .box:hover {
 border-radius: 2%;
+opacity: 1;
 
 }
 .box h1{

@@ -14,90 +14,62 @@
 
 <body>
     <h1>flower__Book____<i class="fa-regular fa-heart"></i></h1>
-         
-        <div id="flowers">
-                   
-    <div class="box1 box containt">
-        <h1>Bougainvillea</h1>
-        <p>A favorite in tropical locales, this colorful climber can also be grown annually if you don't happen to live
-            in a sunny spot. Bougainvillea can grow 20–30 feet tall and wide, and its beautiful color-saturated flowers
-            make a major impact.
 
-            Bloom season: In warm zones, bougainvillea can grow year-round; in colder climates, the vine blooms in the
-            summer and should be brought in for the winter.</p>
-    </div>
-    <div class="box2 box containt">
-        <h1>Wisteria</h1>
-        <p>If there was ever a flower to make you feel like you've wandered into a Jane Austen novel, wisteria is it.
-            Not only does this climbing vine look romantic, it smells amazing too and will fill the space with color and
-            fragrance. Be sure to opt for a North American species if you live in the states.
+    <div id="flowers">
 
-            Bloom season: Plant between October and April in full sun, the flowers should reach their peak in late
-            spring and summer.
-        </p>
-    </div>
-    <div class="box3 box containt ">
-        <h1>Cosmos</h1>
-        <p>
-            Wispy and delicate, these daisy-shaped flowers seem almost weightless stop their super-long stems (which can
-            grow up to 60 inches tall! Stake them for added support). Wedding florists love to tuck them into otherwise
-            staid bouquets for a bit of happy whimsy; you should do the same for tabletop arrangements.
+        <div class="box1 box containt">
+            <h1>Bougainvillea</h1>
 
-            Bloom season: Start seeds indoors, before the last frost, so you can transplant them outdoors when 3-4
-            inches tall. Expect flowers in summer and fall. (If you lead the seed heads blow away, they'll self-sow
-            elsewhere on your property.)</p>
-    </div>
-    <div class="box4 box containt ">
-        <h1>Gardenia</h1>
-        <p>Known for its rich scent, this waxy flower with glossy thick leaves is often used in perfumes. An evergreen
-            shrub that can grow 8 feet tall, gardenias grow best in humid areas.
-
-            Bloom season: They can bloom during different seasons depending on the variety. Many appear in the spring
-            and summer</p>
-    </div>
-    <div class="box5 box containt ">
-        <h1>Alstroemerias</h1>
-        <p>Typically called Peruvian lilies, they come in bright colors like pink, orange, and purple. Alstroemerias
-            easy to grow and don't require a ton of care. Great for flower bouquets, they last up to two weeks once cut.
-
-            Bloom season: Summer</p>
-    </div>
-    <div class="box6 box containt ">
-        <h1>Corn Poppy</h1>
-        <p>These papaver rhoeas, commonly referred to as corn, field or common poppies, are annual wildflowers that
-            became a symbol of the blood spilled in World War I.
-
-            Bloom season: Spring and summer</p>
-    </div>
-    <div class="box7 box containt ">
-        <h1>Petunia</h1>
-        <p>These trumpet-shaped flowers are popular to plant in flowerbeds. They come in a variety of colors, and
-            they're easy to grow.
-
-            Bloom seasons: Spring, fall, and summer</p>
-    </div>
-    <div class="box8 box containt ">
-        <h1>Marigold</h1>
-        <p>Part of the sunflower family, these bright, beautiful flowers bloom all summer long. They thrive in lots of
-            sunshine and can even endure hot summers.
-
-            Bloom seasons: Spring, fall, and summer</p>
-    </div>
-    <div class="box9 box containt ">
-        <h1>Water Lily</h1>
-        <p>These beauties often sprout in vibrant colors like yellow, pink or purple. They're a pretty addition to water
-            gardens and natural or artificial ponds.
-
-            Bloom seasons: Fall and summer</p>
-    </div>
         </div>
+        <div class="box2 box containt">
+            <h1>Wisteria</h1>
+
+        </div>
+        <div class="box3 box containt ">
+            <h1>Cosmos</h1>
+
+        </div>
+        <div class="box4 box containt ">
+            <h1>Gardenia</h1>
+
+        </div>
+        <div class="box5 box containt ">
+            <h1>Alstroemerias</h1>
+
+        </div>
+        <div class="box6 box containt ">
+            <h1>Corn Poppy</h1>
+
+        </div>
+        <div class="box7 box containt ">
+            <h1>Petunia</h1>
+
+        </div>
+        <div class="box8 box containt ">
+            <h1>Marigold</h1>
+
+        </div>
+        <div class="box9 box containt ">
+            <h1>Water Lily</h1>
+
+        </div>
+    </div>
 
     <footer>
         THANK YOU_<i class="fa-solid fa-face-smile" style="color: #fafcff;"></i>
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     
+    <script >
+        var tl = gsap.timeline();
 
-
+tl.from(".box ", {
+    x: 100,
+    duration: 1,
+    delay: 1,
+    stagger: 1,
+});
+    </script>
 </body>
-
 </html>
